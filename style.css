@@ -1,0 +1,83 @@
+/* RESET */
+
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+/* GENERAL */
+
+* {
+    font-family:'Courier New', Courier, monospace;
+    background-color: black;
+}
+
+:root{
+    
+    --color-green : green;
+    --color-pink : pink ;
+    --color-black : black;
+    --color-purple : #5e084b ;
+    --color-blueviolet : blueviolet ;
+    --color-pinkStrong : rgb(238, 61, 200) ;
+    --color-mark : yellowgreen ; 
+    --color-white : white ;
+
+}
+
+/* HEADER */
+
+.color-h1 {
+    color: var(--color-purple);
+
+}
+
+.color-h2 {
+
+    color: var(--color-blueviolet);
+
+}
+
+.color-h3 {
+
+    color: var(--color-pinkStrong) ;
+
+}
+
+.color-mark {
+
+    color: var(--color-mark);
+
+}
+
+.color-green {
+
+    color: var(--color-green);
+}
+
+.color-white {
+
+    color:var(--color-white) ;
+}
+
+.container {
+
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+}
+
+.font-text {
+
+    font-size: 60px; 
+    padding-right: 20px;
+    color: var(--color-pink);
+
+}
+
+
+/* MAIN */
+
+
